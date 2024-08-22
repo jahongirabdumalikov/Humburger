@@ -1,0 +1,26 @@
+.pages4{
+    width: 100%;
+    height: 550px;
+    background-color: #f5474a15;
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        h1{
+            font-size: 40px;
+            font-weight: 700;
+            font-family: sans-serif;
+            margin-top: 40px;
+            max-width: 400px;
+        }
+        img{
+            margin-top: 40px;
+        }
+    }
+
+    .wrapper__card{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+}

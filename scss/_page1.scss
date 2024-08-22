@@ -1,0 +1,93 @@
+.pages1{
+   width: 100%;
+   height: 800px;
+
+
+    .pages__wrapper{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .pages__left{
+
+            .card{
+                max-width: 180px;
+                height: 50px;
+                background-color: #ef64664d;
+                margin-top: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                border-radius: 50px;
+                
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: sans-serif;
+                    color: #f03235;
+                }
+            }
+
+            h1{
+               max-width: 500px;
+                font-size: 80px;
+                font-weight: 700;
+                font-family: sans-serif;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                span{
+                    color: #f03235;
+                }
+            }
+
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: sans-serif;
+                color: rgb(115, 115, 115);
+            }
+
+            .pages__button{
+                display: flex;
+                align-items: center;
+                margin-top: 50px;
+                gap: 20px;
+
+                button{
+                    padding: 13px 40px 13px 40px;
+                    border: none;
+                    border-radius: 20px;
+                    color: #fff;
+                    background-color: #f03235;
+                    transition: all 0.2s;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #3681e9;
+                        color: #ffffff;
+                    }
+                }
+
+                h3{
+                    font-size: 16px;
+                    font-weight: 300;
+                    font-family: sans-serif;
+                    color: rgb(115, 115, 115);
+                }
+            }
+
+            .img{
+                margin-top: 50px;
+            }
+        }
+
+        .pages__right{
+            margin-top: 140px;
+
+
+            img{
+                width: 630px;
+            }
+        }
+    }
+}
